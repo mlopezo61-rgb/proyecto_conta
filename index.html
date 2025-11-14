@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contabilidad Administrativa - Proyecto Final</title>
+  <style>
+    body {
+      margin:0;
+      font-family:'Poppins', sans-serif;
+      background:#eef1f7;
+      color:#222;
+    }
+    header{
+      background:linear-gradient(90deg,#1d3557,#457b9d);
+      padding:70px 20px;
+      text-align:center;
+      color:white;
+    }
+    nav{
+      background:#1d3557;
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      padding:15px;
+      gap:20px;
+    }
+    nav a{
+      color:#f1faee;
+      text-decoration:none;
+      padding:10px 15px;
+      border-radius:8px;
+      transition:.3s;
+    }
+    nav a:hover{
+      background:#457b9d;
+    }
+    .card{
+      background:white;
+      padding:25px;
+      margin-bottom:20px;
+      border-radius:15px;
+      box-shadow:0 4px 10px rgba(0,0,0,.1);
+      border-left:6px solid #457b9d;
+    }
+    h2{
+      color:#1d3557;
+      border-bottom:4px solid #457b9d;
+      padding-bottom:5px;
+      display:inline-block;
+    }
+    button{
+      background:#1d3557;
+      color:white;
+      border:none;
+      padding:10px;
+      border-radius:6px;
+      cursor:pointer;
+      transition:.3s;
+    }
+    button:hover{
+      background:#457b9d;
+    }
+    footer{
+      background:#1d3557;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:50px;
+    }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Contabilidad Administrativa</h1>
+    <p>Proyecto Final - Contabilidad II</p>
+    <p><strong>Autor:</strong> Mario Estuardo López Orozco</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#fundamentos">Fundamentos Web</a>
+    <a href="#teoria">Aspectos Teóricos</a>
+    <a href="#herramientas">Herramientas de Gestión</a>
+    <a href="#calculos">Herramientas de Cálculo</a>
+    <a href="#universidad">Universidad</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <div class="card">
+      <p>Bienvenido al proyecto final del curso de Contabilidad II. Esta página integra conocimientos teóricos y prácticos de Contabilidad Administrativa, junto con principios de diseño web moderno y estructurado. El propósito es presentar un recurso digital completo, profesional y confiable.</p>
+    </div>
+  </section>
+
+  <section id="fundamentos">
+    <h2>Fundamentos de Creación Web</h2>
+    <div class="card">
+      <p>La estructura de esta página se diseñó con HTML y CSS, aplicando principios de <strong>diseño responsivo, elegancia visual y buena legibilidad</strong>. Se utilizan colores institucionales y tipografía moderna para garantizar claridad y profesionalismo.</p>
+      <p>Se emplearon tarjetas (cards) para presentar información de manera organizada, con sombras y bordes redondeados para facilitar la lectura. Además, se implementaron transiciones suaves y animaciones para mejorar la experiencia del usuario.</p>
+      <p>Los apartados son interactivos y la sección de herramientas de cálculo permite al usuario realizar simulaciones financieras como VAN, TIR, rentabilidad, flujo de efectivo y más, integrando conceptos contables con aplicaciones prácticas.</p>
+    </div>
+  </section>
+
+  <section id="teoria">
+    <h2>Aspectos Teóricos Fundamentales</h2>
+    <div class="card">
+      <h3>Contabilidad Administrativa</h3>
+      <p>La Contabilidad Administrativa proporciona información interna para la planeación, control, toma de decisiones y evaluación de la gestión organizacional. Su objetivo principal es mejorar la eficiencia y rentabilidad de las operaciones mediante información confiable y oportuna.</p>
+      <p><strong>Áreas de aplicación:</strong> presupuestos, análisis de costos, control de inventarios, decisiones estratégicas, análisis de rentabilidad y evaluación de proyectos.</p>
+      <p><strong>Ejemplo:</strong> Un gerente analiza la información de costos de producción y ventas para decidir qué línea de productos priorizar en publicidad e inversión.</p>
+    </div>
+
+    <div class="card">
+      <h3>Diferencias con la Contabilidad Financiera y de Costos</h3>
+      <ul>
+        <li><strong>Contabilidad Financiera:</strong> Orientada a usuarios externos; se basa en normas oficiales e información histórica.</li>
+        <li><strong>Contabilidad de Costos:</strong> Centrada en registrar y controlar costos de producción o servicios.</li>
+        <li><strong>Contabilidad Administrativa:</strong> Integra información de costos y financiera para la toma de decisiones internas estratégicas y operativas.</li>
+      </ul>
+      <p><strong>Ejemplo:</strong> Se compara la rentabilidad de dos productos y se decide continuar solo con el más rentable, ajustando estrategias de venta y producción.</p>
+    </div>
+
+    <div class="card">
+      <h3>Conceptos Clave y Objetivos</h3>
+      <ul>
+        <li><strong>Planeación:</strong> Definir metas financieras y operativas, presupuestos y proyecciones.</li>
+        <li><strong>Control:</strong> Evaluar desempeño frente a objetivos y detectar desviaciones.</li>
+        <li><strong>Toma de decisiones:</strong> Seleccionar alternativas estratégicas para optimizar resultados.</li>
+        <li><strong>Evaluación del desempeño:</strong> Medir eficiencia y rentabilidad de productos, departamentos o proyectos.</li>
+      </ul>
+      <p><strong>Ejemplo:</strong> Una empresa decide tercerizar su logística tras detectar que reduce costos en 10% y mejora la eficiencia operativa.</p>
+    </div>
+
+    <div class="card">
+      <h3>Indicadores Clave de Gestión</h3>
+      <ul>
+        <li><strong>Rentabilidad:</strong> Evaluación de ganancias respecto a recursos utilizados.</li>
+        <li><strong>Liquidez:</strong> Capacidad para cumplir obligaciones a corto plazo.</li>
+        <li><strong>Productividad:</strong> Medida de eficiencia operativa.</li>
+        <li><strong>Eficiencia:</strong> Comparación entre recursos utilizados y resultados obtenidos.</li>
+        <li><strong>Análisis de desviaciones:</strong> Comparación de resultados reales vs presupuestados.</li>
+        <li><strong>Indicadores financieros:</strong> ROI, margen de utilidad, rotación de activos.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Importancia de la Contabilidad Administrativa</h3>
+      <ul>
+        <li>Tomar decisiones rápidas y fundamentadas.</li>
+        <li>Planificar y proyectar el crecimiento empresarial.</li>
+        <li>Evaluar la eficiencia de los recursos humanos y materiales.</li>
+        <li>Mejorar la rentabilidad de los proyectos y líneas de productos.</li>
+        <li>Controlar costos y optimizar procesos.</li>
+      </ul>
+      <p><strong>Ejemplo:</strong> Un gerente detecta un área con alto consumo de recursos y propone mejoras para reducir costos sin afectar la producción.</p>
+    </div>
+  </section>
+
+  <section id="herramientas">
+    <h2>Herramientas de Gestión Práctica</h2>
+    <div class="card">
+      <h3>1. Análisis del Flujo de Efectivo</h3>
+      <p>Permite conocer la generación y uso de efectivo en la empresa, evaluando la liquidez y capacidad de inversión.</p>
+      <ul>
+        <li>Flujo operativo: ingresos y egresos de operaciones.</li>
+        <li>Flujo de inversión: compras y ventas de activos.</li>
+        <li>Flujo de financiación: préstamos, capital y dividendos.</li>
+      </ul>
+      <p><strong>Ejemplo:</strong> Una empresa con flujo positivo puede invertir en expansión o pagar deudas sin solicitar financiamiento adicional.</p>
+    </div>
+
+    <div class="card">
+      <h3>2. Medición de Rentabilidad y Eficiencia</h3>
+      <ul>
+        <li><strong>Margen de utilidad:</strong> Relación entre ganancias netas y ventas.</li>
+        <li><strong>ROI:</strong> Retorno sobre la inversión realizada.</li>
+        <li><strong>Rotación de activos:</strong> Eficiencia en el uso de los recursos de la empresa.</li>
+      </ul>
+      <p><strong>Ejemplo:</strong> Un ROI de 25% significa que por cada Q100 invertidos se generan Q25 de utilidad neta.</p>
+    </div>
+
+    <div class="card">
+      <h3>3. Decisiones de Comprar o Producir</h3>
+      <p>Se evalúa si conviene fabricar internamente o adquirir externamente, considerando:</p>
+      <ul>
+        <li>Costo total unitario</li>
+        <li>Capacidad de producción</li>
+        <li>Calidad esperada</li>
+        <li>Impacto estratégico en la empresa</li>
+      </ul>
+      <p><strong>Ejemplo:</strong> Fabricar a Q45 por unidad vs comprar a Q40; si producir internamente garantiza mejor control de calidad, la empresa decide producir.</p>
+    </div>
+
+    <div class="card">
+      <h3>4. Análisis Patrimonial</h3>
+      <p>Permite evaluar la solvencia y estabilidad financiera comparando activos, pasivos y patrimonio.</p>
+      <ul>
+        <li>Razón corriente: activos corrientes / pasivos corrientes.</li>
+        <li>Deuda/Patrimonio: medir riesgo financiero.</li>
+        <li>Capital de trabajo: capacidad de cubrir obligaciones a corto plazo.</li>
+      </ul>
+      <p><strong>Ejemplo:</strong> Si los pasivos superan al patrimonio, se deben implementar estrategias para equilibrar la estructura financiera.</p>
+    </div>
+
+    <div class="card">
+      <h3>5. Proyección Financiera: VAN y TIR</h3>
+      <ul>
+        <li><strong>VAN:</strong> Valor presente de los flujos netos de efectivo, determina rentabilidad.</li>
+        <li><strong>TIR:</strong> Tasa interna de retorno, indica rentabilidad porcentual esperada.</li>
+      </ul>
+      <p><strong>Ejemplo:</strong> Proyecto con VAN Q8,500 y TIR 18% frente a costo capital 12%, rentable y viable.</p>
+    </div>
+
+    <div class="card">
+      <h3>6. Control Presupuestario</h3>
+      <p>Consiste en planificar, ejecutar y comparar presupuestos para garantizar que los recursos se utilicen eficientemente y se cumplan objetivos.</p>
+      <p><strong>Ejemplo:</strong> Una empresa detecta que un departamento excedió su presupuesto y ajusta sus gastos para el siguiente trimestre.</p>
+    </div>
+
+    <div class="card">
+      <h3>7. Evaluación de Proyectos</h3>
+      <p>Incluye análisis financiero y estratégico para determinar la viabilidad de proyectos o inversiones.</p>
+      <p><strong>Ejemplo:</strong> Se analiza un nuevo proyecto de expansión de ventas mediante VAN, TIR y proyección de flujo de efectivo, decidiendo si ejecutarlo.</p>
+    </div>
+  </section>
+
+  <section id="calculos">
+    <h2>Herramientas de Cálculo</h2>
+    <div class="card">
+      <h3>1. Valor Actual Neto (VAN)</h3>
+      <input type="number" id="flujo" placeholder="Flujo neto anual (Q)">
+      <input type="number" id="tasa" placeholder="Tasa de descuento (%)">
+      <input type="number" id="periodos" placeholder="Número de periodos">
+      <button onclick="calcularVAN()">Calcular VAN</button>
+      <p class="resultado" id="resultadoVAN"></p>
+    </div>
+
+    <div class="card">
+      <h3>2. Tasa Interna de Retorno (TIR)</h3>
+      <input type="text" id="flujosTIR" placeholder="Flujos netos anuales, ej: 1000,1200,1500">
+      <input type="number" id="inversionTIR" placeholder="Inversión inicial (Q)">
+      <button onclick="calcularTIR()">Calcular TIR</button>
+      <p class="resultado" id="resultadoTIR"></p>
+    </div>
+
+    <div class="card">
+      <h3>3. Rentabilidad</h3>
+      <input type="number" id="utilidad" placeholder="Utilidad neta (Q)">
+      <input type="number" id="inversion" placeholder="Inversión total (Q)">
+      <button onclick="calcularRentabilidad()">Calcular Rentabilidad</button>
+      <p class="resultado" id="resultadoRentabilidad"></p>
+    </div>
+
+    <div class="card">
+      <h3>4. Margen de Utilidad</h3>
+      <input type="number" id="utilidadMargen" placeholder="Utilidad neta (Q)">
+      <input type="number" id="ventas" placeholder="Ventas totales (Q)">
+      <button onclick="calcularMargen()">Calcular Margen</button>
+      <p class="resultado" id="resultadoMargen"></p>
+    </div>
+
+    <div class="card">
+      <h3>5. Rotación de Activos</h3>
+      <input type="number" id="ventasActivos" placeholder="Ventas totales (Q)">
+      <input type="number" id="activos" placeholder="Activos totales (Q)">
+      <button onclick="calcularRotacion()">Calcular Rotación</button>
+      <p class="resultado" id="resultadoRotacion"></p>
+    </div>
+
+    <div class="card">
+      <h3>6. Flujo de Efectivo</h3>
+      <input type="number" id="ingresos" placeholder="Ingresos operativos (Q)">
+      <input type="number" id="egresos" placeholder="Egresos operativos (Q)">
+      <button onclick="calcularFlujo()">Calcular Flujo</button>
+      <p class="resultado" id="resultadoFlujo"></p>
+    </div>
+
+    <div class="card">
+      <h3>7. Decisión Comprar o Producir</h3>
+      <input type="number" id="costoProduccion" placeholder="Costo producción por unidad (Q)">
+      <input type="number" id="costoCompra" placeholder="Costo compra por unidad (Q)">
+      <button onclick="decidirCompraProduccion()">Decidir</button>
+      <p class="resultado" id="resultadoDecision"></p>
+    </div>
+
+    <div class="card">
+      <h3>8. Análisis Patrimonial</h3>
+      <input type="number" id="activosPatr" placeholder="Activos totales (Q)">
+      <input type="number" id="pasivosPatr" placeholder="Pasivos totales (Q)">
+      <input type="number" id="patrimonio" placeholder="Patrimonio (Q)">
+      <button onclick="analisisPatrimonial()">Analizar</button>
+      <p class="resultado" id="resultadoPatrimonial"></p>
+    </div>
+  </section>
+
+  <section id="universidad">
+    <h2>Universidad Mariano Gálvez de Guatemala</h2>
+    <div class="card">
+      <p>Esta página fue desarrollada como parte del proyecto final del curso de Contabilidad II - Contabilidad Administrativa, en la <strong>Universidad Mariano Gálvez de Guatemala</strong>.</p>
+      <p>El contenido integra aspectos teóricos y prácticos de contabilidad administrativa, así como herramientas de gestión y cálculo financiero, fomentando la aplicación de conocimientos en un entorno digital interactivo.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 | Proyecto Final - Contabilidad II</p>
+    <p>Elaborado por: <strong>Mario Estuardo López Orozco</strong></p>
+  </footer>
+
+  <script>
+    function calcularVAN() {
+      let flujo = parseFloat(document.getElementById('flujo').value);
+      let tasa = parseFloat(document.getElementById('tasa').value)/100;
+      let periodos = parseInt(document.getElementById('periodos').value);
+      if(isNaN(flujo)||isNaN(tasa)||isNaN(periodos)){
+        document.getElementById('resultadoVAN').innerHTML="⚠️ Completa todos los campos.";
+        return;
+      }
+      let VAN = flujo*((1-Math.pow(1+tasa,-periodos))/tasa);
+      document.getElementById('resultadoVAN').innerHTML="💰 VAN: Q"+VAN.toFixed(2);
+    }
+
+    function calcularTIR() {
+      let flujos = document.getElementById('flujosTIR').value.split(',').map(Number);
+      let inversion = parseFloat(document.getElementById('inversionTIR').value);
+      if(flujos.includes(NaN)||isNaN(inversion)||inversion<=0){
+        document.getElementById('resultadoTIR').innerHTML="⚠️ Completa todos los campos.";
+        return;
+      }
+      let tir=0.1, iter=0;
+      while(iter<1000){
+        let npv=-inversion;
+        for(let i=0;i<flujos.length;i++) npv+=flujos[i]/Math.pow(1+tir,i+1);
+        if(Math.abs(npv)<0.01) break;
+        tir+=npv>0?0.001:-0.001;
+        iter++;
+      }
+      document.getElementById('resultadoTIR').innerHTML="📈 TIR: "+(tir*100).toFixed(2)+"%";
+    }
+
+    function calcularRentabilidad(){
+      let u=parseFloat(document.getElementById('utilidad').value);
+      let i=parseFloat(document.getElementById('inversion').value);
+      if(isNaN(u)||isNaN(i)||i===0){
+        document.getElementById('resultadoRentabilidad').innerHTML="⚠️ Completa los campos.";
+        return;
+      }
+      let r=(u/i)*100;
+      document.getElementById('resultadoRentabilidad').innerHTML="📊 Rentabilidad: "+r.toFixed(2)+"%";
+    }
+
+    function calcularMargen(){
+      let u=parseFloat(document.getElementById('utilidadMargen').value);
+      let v=parseFloat(document.getElementById('ventas').value);
+      if(isNaN(u)||isNaN(v)||v===0){
+        document.getElementById('resultadoMargen').innerHTML="⚠️ Completa los campos.";
+        return;
+      }
+      let m=(u/v)*100;
+      document.getElementById('resultadoMargen').innerHTML="📊 Margen: "+m.toFixed(2)+"%";
+    }
+
+    function calcularRotacion(){
+      let v=parseFloat(document.getElementById('ventasActivos').value);
+      let a=parseFloat(document.getElementById('activos').value);
+      if(isNaN(v)||isNaN(a)||a===0){
+        document.getElementById('resultadoRotacion').innerHTML="⚠️ Completa los campos.";
+        return;
+      }
+      let r=v/a;
+      document.getElementById('resultadoRotacion').innerHTML="🔄 Rotación activos: "+r.toFixed(2);
+    }
+
+    function calcularFlujo(){
+      let i=parseFloat(document.getElementById('ingresos').value);
+      let e=parseFloat(document.getElementById('egresos').value);
+      if(isNaN(i)||isNaN(e)){
+        document.getElementById('resultadoFlujo').innerHTML="⚠️ Completa los campos.";
+        return;
+      }
+      let f=i-e;
+      document.getElementById('resultadoFlujo').innerHTML="💵 Flujo efectivo: Q"+f.toFixed(2);
+    }
+
+    function decidirCompraProduccion(){
+      let p=parseFloat(document.getElementById('costoProduccion').value);
+      let c=parseFloat(document.getElementById('costoCompra').value);
+      if(isNaN(p)||isNaN(c)){
+        document.getElementById('resultadoDecision').innerHTML="⚠️ Completa los campos.";
+        return;
+      }
+      document.getElementById('resultadoDecision').innerHTML=p<c?"💡 Conviene producir":"💡 Conviene comprar";
+    }
+
+    function analisisPatrimonial(){
+      let a=parseFloat(document.getElementById('activosPatr').value);
+      let pas=parseFloat(document.getElementById('pasivosPatr').value);
+      let patr=parseFloat(document.getElementById('patrimonio').value);
+      if(isNaN(a)||isNaN(pas)||isNaN(patr)||patr===0){
+        document.getElementById('resultadoPatrimonial').innerHTML="⚠️ Completa los campos.";
+        return;
+      }
+      let solv=a/pas;
+      let eq=patr/a;
+      document.getElementById('resultadoPatrimonial').innerHTML="📊 Solvencia: "+solv.toFixed(2)+" | Patrimonio/Activos: "+eq.toFixed(2);
+    }
+  </script>
+</body>
+</html>
+
